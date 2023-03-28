@@ -1,0 +1,64 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  max-width: 850px;
+  height: 70%;
+  margin-top: 20px;
+}
+
+.domain {
+  display: none;
+}
+
+.tick line {
+  stroke: #ddd;
+}
+
+.tippy-content {
+  background-color: rgb(227, 232, 237);
+  color: black;
+}
+
+h1 {
+  margin-left: 70px;
+  color: #4b77be;
+  font-size: 20px;
+}
+
+h3 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.heading {
+  max-width:850px;
+}
+
+.countries {
+  width: 200px;
+  height: 40px;
+  margin-left: 70px;
+}
+.countries:focus-visible {
+  outline: none;
+}
+
+.axis-labels {
+  font-size: 12px;
+  fill: rgb(117, 115, 115);
+}
+
+@media (min-width: 576px){
+  h1 {
+    margin-left: 70px;
+    color: #4b77be;
+    font-size: 40px;
+  }
+  .axis-labels {
+    font-size: 15px;
+    fill: rgb(117, 115, 115);
+  }
+}
